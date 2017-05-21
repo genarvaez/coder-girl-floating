@@ -36,5 +36,5 @@ button.addEventListener("click", function(){
 	document.getElementById("email").value ="";
 	document.getElementById("subjet").value = "";
 	document.getElementById("message").value = "";
-})
+})	
 
