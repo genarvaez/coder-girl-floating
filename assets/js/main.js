@@ -19,6 +19,15 @@ button.addEventListener("click", function(){
 	if(name == ""|| email == "" || subjet == "" || message == ""){
 		alert("CAN'T HAVE EMPTY FIELDS")
 	}
+	else if(name.charAt(0) != name.charAt(0).toUpperCase()){
+		alert("Nombre no válido");
+	}
+	else if(!(/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/.test(email))){
+		alert("E-mail no válido")
+	}
+	else if(message.lenght > 100){
+		alert("El mensaje debe tener menos 100 caracteres")
+	}
 	else{
 	costumerArr.push(new Costumers(name, email, subjet, message))
 	alert("Thanks, we'll contact you soon")
