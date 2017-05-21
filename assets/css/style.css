@@ -13,7 +13,7 @@ header .logo{
 	float: left;
 	font-size: 1.5em;
 }
-header .inicio, header .documental{
+.nav-bar{
 	float:right;
 	color:grey;
 	padding: 10px 10px;
