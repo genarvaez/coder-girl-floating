@@ -10,6 +10,7 @@ var costumerArr = [];
 
 // boton de contacto
 var button = document.getElementById("button");
+
 //evento de contacto con usuario
 button.addEventListener("click", function(){
 	var name = document.getElementById("name").value;
@@ -35,6 +36,16 @@ button.addEventListener("click", function(){
 	document.getElementById("name").value ="";
 	document.getElementById("email").value ="";
 	document.getElementById("subjet").value = "";
-	document.getElementById("message").value = "";
-})	
+	document.getElementById("message").value = "";	
+})
+var inscribete = document.getElementById("inscribete");
+inscribete.addEventListener("click", function(){
+	var mensaje = document.getElementsByTagName("h1");
+	mensaje[0].innerText = "EL CÓDIGO TRANSFORMA"
+})
 
+var floatButton = document.getElementById("button-hack");
+floatButton.addEventListener("click", function(){
+	var floatImage = document.getElementById("hack-float");
+	floatImage.classList.add("float-img")
+})

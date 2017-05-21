@@ -15,8 +15,9 @@ header .logo{
 }
 .nav-bar{
 	float:right;
-	color:grey;
-	padding: 10px 10px;
+	color:blue;
+	padding: 10px 30px;
+	margin-right: 20px;
 }
 /*wellcome section*/
 .section-home{
@@ -61,11 +62,23 @@ header .logo{
 	text-align: left;
 	padding: 10px;
 }
+.content .button{
+	background-color: blue;
+	border: 1px solid #0101DF;
+	float: left;
+	text-align: center;
+	border-radius: 5px;
+	width: 100px;
+	height: 30px;
+} 
 /*contact section*/
 .contact-image img{
 	float: left;
 	margin: 40px;
 	margin-bottom: 200px;
+}
+.float-img{
+	float: right;
 }
 .contact-info h1{
 	font-size: 2.5em;
